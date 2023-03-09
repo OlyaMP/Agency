@@ -5,9 +5,10 @@
     display: flex;
     flex-direction: column;
 }
-.page__header_grey {
+.page__intro_gray {
 background-color: #F6F2F2;
 }
+/* Header */
 .header {
     display: flex;
     box-sizing: border-box;
@@ -23,6 +24,9 @@ background-color: #F6F2F2;
 .header__navigation {
     display: flex;
     flex-wrap: wrap;
+}
+.page__header_gray {
+    background-color: #F6F2F2;
 }
 .menu {
     display: flex;
@@ -47,7 +51,77 @@ background-color: #F6F2F2;
     padding: 40px 22px 26px 22px;
     font-size: 14px;
     font-weight: 600;
+    color: #E0E0E0;
     text-decoration: none;
     text-transform: uppercase;
-    color: #E0E0E0;
+}
+/* Home */
+.page__contant {
+    flex-grow: 1; 
+}
+.intro {
+    padding-top: 102px;
+    padding-bottom: 110px; 
+}
+.intro__content {  /*левая часть контента*/
+    position: relative;
+    bottom: 12px;
+    width: 616px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+.intro__heading {
+    margin: 0;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.intro__text {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 62px;
+    max-width: 544px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.action-button {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 228px;
+    height: 56px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+.action-button_red {
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.32px;
+    font-weight: 700;
+    color: #fff;   
+    background-color: #FF2D2D;
+}
+.intro__link {         /*правая часть контента*/
+    max-width: 630px;
+    width: 100%;
+    min-height: 356px;
+    position: relative;
+    bottom: 88px;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-left: 1vw;
+    padding-right: 1vw; */
 }
