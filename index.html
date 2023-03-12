@@ -11,14 +11,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./vendor/normalize.css" type="text/css">
-    <link rel="stylesheet" href="./styles/style.css" type="text/css">
+    <link rel="stylesheet" href="./vendor/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
     <div class="page">
-        <div class="page__header_gray">
-            <header class="header">
+        <header class="page__header_gray">
+            <div class="header">
                 <nav class="header__navigation">
                     <ul class="menu">
                         <li class="menu__item">
@@ -35,11 +35,12 @@
                         </li>
                     </ul>
                 </nav>
-            </header>
-        </div>
+            </div>
+        </header>
+
         <main class="page__contant">
-            <div class="page__intro_gray">
-                <section class="intro section">
+            <section class="page__intro_gray">
+                <div class=" intro section">
                     <div class="intro__content">
                         <h1 class="intro__heading">
                             our strong organaisation
@@ -52,10 +53,10 @@
                         <button class="action-button action-button_red" type="button">Contact Us</button>
                     </div>
                     <a class="intro__link">
-                        <img class="intro__image" src="./images/vedio.png" alt="здесь будет видео">
+                        <iframe class="intro__video" src="https://www.youtube.com/embed/0v7pdd4za6s" alt="здесь будет видео" allowfullscreen></iframe>
                     </a>
-                </section>
-            </div>
+                </div>
+            </section>
         </main>
     </div>
 </body>

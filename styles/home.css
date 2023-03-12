@@ -1,5 +1,5 @@
 .page__intro_gray {
-    background-color: #F6F2F2;
+    background-color: var(--gray);
     }   
 .page__contant {
     flex-grow: 1; 
@@ -19,6 +19,7 @@
     margin: 0;
     font-size: 60px;
     line-height: 72px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     letter-spacing: 5px;
     text-transform: uppercase;
     font-weight: 800;
@@ -29,10 +30,11 @@
     margin-bottom: 62px;
     max-width: 544px;
     width: 100%;
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 .action-button {
     box-sizing: border-box;
@@ -46,19 +48,25 @@
     cursor: pointer;
 }
 .action-button_red {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 18px;
     line-height: 34px;
     letter-spacing: 0.32px;
     font-weight: 700;
-    color: #fff;   
+    color: var(--white);   
     background-color: var(--red);
+}
+.action-button:hover {
+    background-color: var(--black);
+    color: var(--red);
 }
 .intro__link {         /*правая часть контента*/
     max-width: 630px;
     width: 100%;
     min-height: 356px;
     position: relative;
-    bottom: 88px;
+    bottom: 5px;
+    left: 80px;
 }
 .section {
     display: flex;
@@ -69,4 +77,10 @@
     margin: 0 auto;
     /* padding-left: 1vw;
     padding-right: 1vw; */
+}
+.intro__video {
+    max-width: 550px;
+    width: 100%;
+    min-height: 356px;
+    border: none;
 }
