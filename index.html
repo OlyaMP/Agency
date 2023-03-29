@@ -5,14 +5,15 @@
     <title>Agency</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./vendor/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/00_style.css">
 </head>
 
 <body class="page">
@@ -36,7 +37,7 @@
             </nav>
         </div>
     </header>
-    <main class="page__contant">
+    <main class="page__content">
         <section class="page__intro_gray">
             <div class=" intro section">
                 <div class="intro__content">
@@ -50,10 +51,7 @@
                     </p>
                     <button class="action-button action-button_red" type="button">Contact Us</button>
                 </div>
-                <div class="intro__link">
-                    <iframe class="intro__video" src="https://www.youtube.com/embed/0v7pdd4za6s"
-                        allowfullscreen></iframe>
-                </div>
+                <iframe class="intro__video" src="https://www.youtube.com/embed/0v7pdd4za6s" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -140,7 +138,7 @@
                     Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing eiusmod tempor incididut labore
                     Ui / Ux , print template.
                 </p>
-                <img class="team__line" src="./images/products-line.svg" alt="красная линия">
+                <img class="team__line" src="./images/products-line.svg" alt="just red line">
             </div>
 
             <div class="team__members">
@@ -161,19 +159,19 @@
                     <section class="members">
                         <div class="member">
                             <h3 class="member__name">Marie Curie</h3>
-                            <img class="member__foto" src="./images/kuri.jpg" alt="фото сотрудника">
+                            <img class="member__foto" src="./images/kuri.jpg" alt="employee">
                         </div>
                         <div class="member">
                             <h3 class="member__name">Wilhelm Röntgen</h3>
-                            <img class="member__foto" src="./images/rentgen.jpg" alt="фото сотрудника">
+                            <img class="member__foto" src="./images/rentgen.jpg" alt="employee">
                         </div>
                         <div class="member">
                             <h3 class="member__name">Michael Faraday</h3>
-                            <img class="member__foto" src="./images/pharadey.jpeg" alt="фото сотрудника">
+                            <img class="member__foto" src="./images/pharadey.jpeg" alt="employee">
                         </div>
                         <div class="member">
                             <h3 class="member__name">Nikola Tesla</h3>
-                            <img class="member__foto" src="./images/tesla.jpg" alt="фото сотрудника">
+                            <img class="member__foto" src="./images/tesla.jpg" alt="employee">
                         </div>
                     </section>
                 </div>
@@ -189,6 +187,40 @@
                     <button class="subscribe-form__button" type="submit">subscribe</button>
                 </form>
             </div>
+        </section>
+
+        <section class="feedback-contacts">
+            <div class="feedback">
+                <h2 class="feedback__title">
+                    get in touch
+                </h2>
+                <p class="feedback__text">
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore
+                    et.ur adipis cing elit, sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit, sed do
+                    eiusmod tempor incididunt ut labore et.
+                </p>
+                <img src="./images/products-line.svg" alt="just red line">
+
+                <div class="feedback__form">
+                    <input class="feedback__input feedback-input__name" type="text" name="name" placeholder="Name"
+                        required>
+                    <input class="feedback__input feedback-input__mail" type="email" name="email"
+                        placeholder="Your Mail" required>
+                    <textarea class="feedback__input input__message">Type your message
+                </textarea>
+                    <button class="feedback__button" type="button">
+                        Send message
+                    </button>
+                </div>
+            </div>
+            <section class="contacts">
+                <h2 class="contacs__heading">contact info</h2>
+                <address class="contacts__address">
+                    <p class="contacts__line">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                    <p class="contacts__line">redwan@deviserweb.com</p>
+                    <p class="contacts__line">(+88) 017 617 46373</p>
+                </address>
+            </section>
         </section>
     </main>
 

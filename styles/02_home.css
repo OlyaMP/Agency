@@ -1,7 +1,7 @@
 .page__intro_gray {
     background-color: var(--gray);
     }   
-.page__contant {
+.page__content {
     flex-grow: 1; 
 }
 .intro {
@@ -50,17 +50,12 @@
     background-color: var(--black);
     color: var(--red);
 }
-.intro__link {         /*правая часть контента*/
-    max-width: 630px;
+.intro__video {         /*правая часть контента*/
+    max-width: 550px;
     width: 100%;
     min-height: 356px;
     position: relative;
     bottom: 5px;
     left: 80px;
-}
-.intro__video {
-    max-width: 550px;
-    width: 100%;
-    min-height: 356px;
-    border: none;
+    border:none;
 }

@@ -30,4 +30,5 @@
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: 3s;
 }
