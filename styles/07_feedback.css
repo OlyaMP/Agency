@@ -16,7 +16,6 @@
 }
 
 .feedback__title {
-    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 700;
     font-size: 42px;
     letter-spacing: 0.3px;
@@ -27,7 +26,6 @@
 }
 
 .feedback__text {
-    font-family: 'Open Sans', Helvetica, sans-serif;
     margin: 0;
     max-width: 752px;
     width: 100%;
@@ -57,7 +55,6 @@
     border: 0;
     padding-left: 50px;
     color: #2C2C2C;
-    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -70,9 +67,7 @@
     width: 342px;
     min-height: 68px;
     margin: 74px 25px 44px 0;
-
 }
-
 .input__message {
     max-width: 734px;
     width: 100%;
@@ -81,8 +76,6 @@
     margin: 0;
     resize: none;
     margin-bottom: 43px;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    color: #2C2C2C;
 }
 
 .feedback__button {
@@ -96,7 +89,6 @@
     transition: 3s;
     color: var(--white);
     background-color: var(--red);
-    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 34px;
@@ -122,7 +114,6 @@
 .contacs__heading {
     margin: 0;
     margin-bottom: 30px;
-    font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 34px;
@@ -132,7 +123,6 @@
 }
 
 .contacts__address {
-    font-family: 'Open Sans', Helvetica, sans-serif;
     line-height: 28px;
     color: var(--white);
 }

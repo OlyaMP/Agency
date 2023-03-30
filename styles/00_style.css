@@ -7,3 +7,44 @@
 @import "./06_subscribe.css";
 @import "./07_feedback.css";
 @import "./08_footer.css";
+@font-face {
+    src: url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    src: url('../fonts/open-sans-v34-latin-italic.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    src: url('../fonts/open-sans-v34-latin-600.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    src: url('../fonts/open-sans-v34-latin-600italic.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    src: url('../fonts/open-sans-v34-latin-700.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    src: url('../fonts/open-sans-v34-latin-800italic.ttf') format('truetype');
+    font-family: 'Open Sans';
+    font-weight: 800;
+    font-style: italic;
+}
+
+
+
+
+

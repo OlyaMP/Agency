@@ -5,7 +5,7 @@
     --gray: #F6F2F2;
 }
 .page {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
     margin: 0;
     font-size: 16px;
     display: flex;
