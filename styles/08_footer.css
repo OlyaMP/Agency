@@ -26,3 +26,7 @@
 .footer__social-links>.footer__link:not(:last-child) {
     margin-right: 18px;
 }
+.footer__link:hover {
+    background-color: var(--red);
+}
+/* Responsive */

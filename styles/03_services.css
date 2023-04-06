@@ -89,3 +89,4 @@ min-height: 101px;
 .service__heading_animation::before {
     content: url(../images/animation.png);
 }
+/* Responsive */

@@ -75,3 +75,14 @@
     cursor: pointer;
     transform: scale(1.1);
 }
+/* Responsive */
+/* 1286 - средняя стандартная ширина монитора */
+/* @media screen and (max-width: 1286px) {    
+    .products {
+        justify-content: flex-start;
+    }
+    .product {
+        max-width: 25%;
+        margin-right: 1vw;
+    }
+} */

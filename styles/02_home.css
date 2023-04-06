@@ -11,7 +11,7 @@
 .intro__content {  /*левая часть контента*/
     position: relative;
     bottom: 12px;
-    width: 616px;
+    max-width: 616px;
     margin-bottom: 20px;
     margin-right: 0px;
 }
@@ -56,4 +56,24 @@
     bottom: 5px;
     left: 80px;
     border:none;
+}
+/* Responsive */
+/* 1286 - средняя стандартная ширина монитора */
+@media screen and (max-width: 1286px) {    
+    .intro {
+        flex-wrap: nowrap;
+    }
+    .intro__content {
+        width: 50%;
+        box-sizing: border-box;
+        margin-right: 0;
+        padding-right: 16px;
+    }
+    .intro__heading {
+        font-size: 5vw;
+    }
+    .intro__video {
+    width: 100%;
+    height: auto;        
+    }
 }

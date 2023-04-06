@@ -130,3 +130,20 @@
 .contacts__line {
     margin-bottom: 27px;
 }
+/* Responsive */
+/* 1286 - средняя стандартная ширина монитора */
+@media screen and (max-width: 1286px) {    
+    .feedback-contacts {
+        right: -30px;
+        padding-right: initial;
+        padding-left: initial;
+    }
+    .contacts {
+        margin-left: 54px;
+        /* width: 100%;
+        max-width: 100%; */
+    }
+    .feedback__form {
+        margin-right: 50px;
+    }
+    }
