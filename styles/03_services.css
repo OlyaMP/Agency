@@ -90,3 +90,10 @@ min-height: 101px;
     content: url(../images/animation.png);
 }
 /* Responsive */
+@media screen and (max-width: 908px) {
+    .services__lead,
+.services__blocks {
+width: 100%;
+max-width: 100%;
+}
+}

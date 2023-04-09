@@ -123,8 +123,21 @@ background-color: var(--red);
 }
 .member__foto {
     display: block;
-    width: 198px;
+    width: 190px;
     height: 218px;
 background-color: var(--red);
 }
 /* Responsive */
+@media screen and (max-width: 908px) {
+    .team__selected-about {  
+        width: 432px;
+    }
+    .members {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team__selected_foto {
+        grid-row: 2 / 3;
+        margin-top: 46px;
+    }
+}
