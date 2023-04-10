@@ -36,25 +36,20 @@
     margin-bottom: 62px;
     max-width: 544px;
     width: 100%;
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 400;
-    /* letter-spacing: 1px; */
 }
 
-.action-button_red {
-    font-size: 18px;
-    line-height: 34px;
-    letter-spacing: 0.32px;
-    font-weight: 700;
+.intro__button {
+    width: 228px;
+    height: 56px;
     border: 0;
     color: var(--white);
     background-color: var(--red);
 }
 
-.action-button:hover {
-    background-color: var(--black);
+.intro__button:hover {
     color: var(--red);
+    background-color: var(--black);
+
 }
 
 .intro__video {
@@ -92,9 +87,10 @@
         height: auto;
     }
 }
+
 @media screen and (max-width: 908px) {
     .intro__video {
         margin-left: 0;
         width: 100%;
-    }   
+    }
 }

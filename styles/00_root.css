@@ -4,13 +4,14 @@
     --white: #fff;
     --gray: #F6F2F2;
 }
+
 .page {
     font-family: 'Open Sans', 'Helvetica', 'Arial', 'sans-serif';
     margin: 0;
-    font-size: 16px;
     display: flex;
     flex-direction: column;
 }
+
 .section {
     display: flex;
     flex-wrap: wrap;
@@ -21,14 +22,38 @@
     padding-left: 1vw;
     padding-right: 1vw;
 }
+
 .action-button {
     box-sizing: border-box;
-    display: inline-block;
-    width: 228px;
-    height: 56px;
     text-align: center;
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
     transition: 3s;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.32px;
+    font-weight: 700;
+}
+
+.section-heading {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: var(--black);
+}
+
+.page__text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.header__line {
+    max-width: 134px;
+    width: 100%;
+    min-height: 4px;
+    background-color: var(--red);
+    border: none;
 }

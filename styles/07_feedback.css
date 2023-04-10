@@ -15,14 +15,10 @@
     margin: 0;
 }
 
-.feedback__title {
-    font-weight: 700;
-    font-size: 42px;
-    letter-spacing: 0.3px;
-    line-height: 24px;
-    text-transform: uppercase;
+.feedback__heading {
     margin: 0;
     padding-bottom: 44px;
+
 }
 
 .feedback__text {
@@ -30,10 +26,11 @@
     max-width: 752px;
     width: 100%;
     min-height: 73px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    margin-bottom: 66px;
+    margin-bottom: 58px;
+}
+
+.feedback__line {
+    margin: 0;
 }
 
 .feedback__form {
@@ -68,6 +65,7 @@
     min-height: 68px;
     margin: 74px 25px 44px 0;
 }
+
 .input__message {
     max-width: 734px;
     width: 100%;
@@ -81,19 +79,10 @@
 .feedback__button {
     width: 731px;
     height: 75px;
-    text-align: center;
-    text-decoration: none;
     border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: 3s;
+    text-transform: uppercase;
     color: var(--white);
     background-color: var(--red);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 34px;
-    letter-spacing: 0.3px;
-    text-transform: uppercase;
 }
 
 .feedback__button:hover {
@@ -130,23 +119,26 @@
 .contacts__line {
     margin-bottom: 27px;
 }
+
 /* Responsive */
 /* 1286 - средняя стандартная ширина монитора */
-@media screen and (max-width: 1286px) {    
+@media screen and (max-width: 1286px) {
     .feedback-contacts {
         right: -30px;
         padding-right: initial;
         padding-left: initial;
     }
+
     .contacts {
         margin-left: 54px;
         /* width: 100%;
         max-width: 100%; */
     }
+
     .feedback__form {
         margin-right: 50px;
     }
-    }
+}
 
 @media screen and (max-width: 908px) {
     .contacts {
@@ -155,6 +147,7 @@
         margin-top: 50px;
         margin-left: 0;
     }
+
     .feedback-contacts {
         flex-wrap: wrap;
     }
