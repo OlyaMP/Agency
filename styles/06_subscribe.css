@@ -67,8 +67,16 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 908px) {
+@media screen and (max-width: 1286px) {
     .subscribe__title {
-        line-height: 56px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .subscribe-form__button {
+        margin-top: 40px;
+    }
+    .subscribe__title {
+        font-size: 4vw;
     }
 }
