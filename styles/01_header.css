@@ -51,11 +51,17 @@
     text-transform: uppercase;
 }
 
-/* Burger-menu */
+
+/* Burger-menu dариант 2 */
+/* Стили для элементов нового меню */
 .burger-menu__button {
-    z-index: 1;
+    /* z-index: 1; */
+    position: fixed;
+    left: 0;
+    /* top: 20px; */
     display: none;
     padding: 0;
+    margin-top: 20px;
     min-width: 140px;
     height: 50px;
     background-image: url(../images/burger-menu.svg);
@@ -63,23 +69,30 @@
     background-size: 100% 100%;
     border: none;
 }
+
 .burger-menu__button:hover {
     cursor: pointer;
 }
+
 .burger-menu {
     position: relative;
+    left: 0;
     display: flex;
-    align-self: center;
-    justify-content: center;
+    /* align-self: start;
+    justify-content: start; */
     flex-direction: column;
+
 }
+
 .burger-menu__list {
     visibility: visible;
-    position: absolute;
-    bottom: 0;
-    transform: translateY(100%);
+    position: fixed;
+    left: -140px;
+    top: 118px;
+    transform: translateX(100%);
     z-index: 1;
     min-width: 140px;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -91,45 +104,18 @@
     transition: visibility, transform 1s, 1s ease-in-out;
 }
 
-/* Responsive */
-/* Скрыть ненужные элементы полноэкранного меню и показать кнопку */
-@media screen and (max-width: 600px) {
-    .burger-menu__button {
-        display: block;
-    }
-
-    .menu {
-        border: 0;
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        clip: rect(0, 0, 0, 0);
-        width: 1px;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .burger-menu__list {
-    visibility: hidden;
-}
-}
-.hide-menu {
-    transform: translateY(-50px);
-    z-index: -1;
-    visibility: hidden;
-}
 .burger-menu__item {
     display: flex;
     align-items: stretch;
     justify-content: center;
     min-height: 90px;
 }
+
 .burger-menu__item:hover {
     background-color: #FF3F40;
     cursor: pointer;
 }
+
 .burger-menu__link {
     display: flex;
     align-items: center;
@@ -139,4 +125,35 @@
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.hide-menu {
+    transform: translateX(-50px);
+    z-index: -1;
+    visibility: hidden;
+}
+
+/* Убрать из области видимости обычное меню и показать кнопку */
+@media screen and (max-width: 600px) {
+    .menu {
+        visibility: hidden;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+        clip: rect(0, 0, 0, 0);
+    }
+
+    .burger-menu__button {
+        display: block;
+    }
+}
+
+/* Скрыть новое меню до нужной ширины экрана */
+@media screen and (min-width: 601px) {
+    .burger-menu__list {
+        visibility: hidden;
+    }
 }
