@@ -26,3 +26,23 @@ else {
     return;
 }
 }
+
+//кнопка бургера
+let burger = document.getElementById('burger');
+burger.addEventListener('click', function () {
+    burger.classList.toggle('burger-menu_open');
+});
+
+//выполнить функцию при клике на любое место экрана (вернуть бургер)
+document.addEventListener('click', closeButton);
+//описание функции
+function closeButton(el) {
+
+    let targetButton = burgerWrapper.contains(el.target);
+    if(!targetButton) {
+        burger.classList.remove('burger-menu_open');
+    }
+    else {
+        return;
+    }
+}

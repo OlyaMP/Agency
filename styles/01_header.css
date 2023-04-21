@@ -55,23 +55,55 @@
 /* Burger-menu dариант 2 */
 /* Стили для элементов нового меню */
 .burger-menu__button {
-    /* z-index: 1; */
     position: fixed;
     left: 0;
-    /* top: 20px; */
     display: none;
     padding: 0;
-    margin-top: 20px;
-    min-width: 140px;
-    height: 50px;
-    background-image: url(../images/burger-menu.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    padding-left: 55px;
     border: none;
+    margin-top: 15px;
+    min-width: 140px;
+    height: 30px;
+    background-color: var(--gray);
+    /* background-image: url(../images/burger-menu.svg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
 }
 
 .burger-menu__button:hover {
     cursor: pointer;
+}
+.burger-line {
+    display: flex;
+    position: absolute;
+    width: 30px;
+    height: 6px;
+    background-color: var(--black);
+    border-radius: 4px;
+    transition: .3s;
+}
+.burger-line:nth-child(1) {
+    transform: translateY(-8px);
+    bottom: 12px;
+}
+.burger-line:nth-child(3) {
+    transform: translateY(8px);
+    bottom: 12px;
+
+}
+.burger-line:nth-child(2) {
+    bottom: 12px;
+
+}
+
+.burger-menu__button.burger-menu_open .burger-line:nth-child(1) {
+    transform: rotate(45deg);
+}
+.burger-menu__button.burger-menu_open .burger-line:nth-child(3) {
+    transform: rotate(-45deg);
+}
+.burger-menu__button.burger-menu_open .burger-line:nth-child(2) {
+    opacity: 0;
 }
 
 .burger-menu {

@@ -89,8 +89,6 @@
 
 /* Responsive */
 @media screen and (max-width: 1286px) {
-    .navigation__list {
-    }
     .list__item {
         margin-bottom: 20px;
     }
@@ -103,15 +101,13 @@
     }
 }
 @media screen and (max-width: 908px) {
-    .list__link {
-        font-size: 2vw;
-    }
-}
-@media screen and (max-width: 600px) {
     .navigation__list {
         flex-direction: column;
-    }
-    .products__navigation {
-        margin: 0 auto;
-    }
+}
+.products__navigation {
+    margin: 0 auto;
+}
+.list__item {
+    margin-bottom: 48px;
+}
 }
