@@ -62,3 +62,8 @@
         font-size: 4vw;
     }
 }
+/* @media  screen and (max-width: 600px)  {
+    .section-heading {
+        font-size: ;
+    }
+} */

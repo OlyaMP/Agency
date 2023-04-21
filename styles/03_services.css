@@ -114,3 +114,12 @@
         max-width: 100%;
     }
 }
+@media screen and (max-width: 600px) {
+.services__lead,
+.services__blocks {
+    margin-left: 86px;
+}
+.services__button {
+    margin-bottom: 100px;
+}
+}

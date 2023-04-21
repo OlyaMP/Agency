@@ -58,9 +58,6 @@
     width: 100%;
     min-height: 356px;
     margin-left: 82px;
-    /* position: relative;
-    bottom: 5px;
-    left: 80px; */
     border: none;
 }
 
@@ -96,5 +93,12 @@
     .intro__content {
         left: 40px;
         bottom: 60px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .intro__video {
+        margin: auto;
+        max-width: 500px;
+        width: 100%;
     }
 }
