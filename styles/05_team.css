@@ -157,6 +157,9 @@
         grid-row: 6 / 7;
         margin: 0 auto;
     }
+    .team__selected-name {
+        font-size: 4vw;
+    }
 }
 @media screen and (max-width: 600px) {
 .team__selected-info {

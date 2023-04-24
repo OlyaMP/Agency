@@ -3,10 +3,9 @@ const burgerButton = document.querySelector('.burger-menu__button');
 const burgerWrapper = document.querySelector('.burger-menu');
 const burgerList = document.querySelector('.burger-menu__list');
 
-//выполнить функцию клика по кнопке
+//выполнить функцию клика по кнопке, которая показывает и скрывает меню
 burgerButton.addEventListener('click', handleMenu);
 
-//написать функцию клика по кнопке, которая показывает и скрывает меню
 function handleMenu() {
     burgerList.classList.toggle('hide-menu');
 }
@@ -14,11 +13,10 @@ function handleMenu() {
 //выполнить функцию при клике на любое место экрана
 document.addEventListener('click', hideBurgerMenu);
 
-//написать эту функцию
 function hideBurgerMenu(el) {
-//проверяем есть ли внутри того, по чему кликнули попап меню или кнопка
+
 let targetInside = burgerWrapper.contains(el.target);
-//если элемента нет, то прячем меню
+
 if(!targetInside) {
     burgerList.classList.add('hide-menu');
 }
@@ -35,7 +33,7 @@ burger.addEventListener('click', function () {
 
 //выполнить функцию при клике на любое место экрана (вернуть бургер)
 document.addEventListener('click', closeButton);
-//описание функции
+
 function closeButton(el) {
 
     let targetButton = burgerWrapper.contains(el.target);
