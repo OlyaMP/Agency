@@ -52,7 +52,7 @@
 }
 
 
-/* Burger-menu dариант 2 */
+/* Burger-menu */
 /* Стили для элементов нового меню */
 .burger-menu__button {
     position: fixed;
@@ -158,29 +158,4 @@
     transform: translateX(-50px);
     z-index: -1;
     visibility: hidden;
-}
-
-/* Убрать из области видимости обычное меню и показать кнопку */
-@media screen and (max-width: 600px) {
-    .menu {
-        visibility: hidden;
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-        clip: rect(0, 0, 0, 0);
-    }
-
-    .burger-menu__button {
-        display: block;
-    }
-}
-
-/* Скрыть новое меню до нужной ширины экрана */
-@media screen and (min-width: 601px) {
-    .burger-menu__list {
-        visibility: hidden;
-    }
 }

@@ -57,8 +57,3 @@
     background-color: var(--red);
     border: none;
 }
-@media screen and (max-width: 908px) {
-    .section-heading {
-        font-size: 4vw;
-    }
-}

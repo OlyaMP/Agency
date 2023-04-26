@@ -8,6 +8,7 @@
 @import "./07_feedback.css";
 @import "./08_footer.css";
 @import "./00_hamburger.css";
+@import "./09_responsive.css";
 @font-face {
     src: url('../fonts/open-sans-v34-latin-regular.ttf') format('truetype');
     font-family: 'Open Sans';

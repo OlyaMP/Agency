@@ -99,27 +99,3 @@
 .service__heading_animation::before {
     content: url(../images/animation.png);
 }
-
-/* Responsive */
-@media screen and (max-width: 1100px) {
-    .services__lead {
-        flex: 1 1;
-    }
-}
-@media screen and (max-width: 908px) {
-
-    .services__lead,
-    .services__blocks {
-        width: 100%;
-        max-width: 100%;
-    }
-}
-@media screen and (max-width: 600px) {
-.services__lead,
-.services__blocks {
-    margin-left: 86px;
-}
-.services__button {
-    margin-bottom: 100px;
-}
-}

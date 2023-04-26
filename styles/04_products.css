@@ -86,28 +86,3 @@
     cursor: pointer;
     transform: scale(1.1);
 }
-
-/* Responsive */
-@media screen and (max-width: 1286px) {
-    .list__item {
-        margin-bottom: 20px;
-    }
-    .products__foto {
-        justify-content: center;
-    }
-    .product {
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-}
-@media screen and (max-width: 908px) {
-    .navigation__list {
-        flex-direction: column;
-}
-.products__navigation {
-    margin: 0 auto;
-}
-.list__item {
-    margin-bottom: 48px;
-}
-}

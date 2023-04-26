@@ -100,7 +100,6 @@
     background-color: #2D2D2D;
     min-width: 580px;
     height: 484px;
-    /* margin-left: 104px; */
     padding: 141px 184px 141px 81px;
     grid-column: 4 / 5;
     grid-row: 2 / 3;
@@ -124,58 +123,4 @@
 
 .contacts__line {
     margin-bottom: 27px;
-}
-
-/* Responsive */
-/* 1286 - средняя стандартная ширина монитора */
-@media screen and (max-width: 1286px) {
-    .feedback-contacts {
-        padding-right: initial;
-        padding-left: initial;
-    }
-
-    .contacts {
-        width: 100%;
-        max-width: 100%;
-        grid-column: 1 / 6;
-        grid-row: 3 / 4;
-        margin-top: 44px;
-    }
-    .feedback {
-        margin-left: 276px;
-    }
-}
-@media screen and (max-width: 1100px) {
-    .contacts {
-        padding-left: 280px;
-    }
-}
-@media screen and (max-width: 700px) {
-.feedback-input__name,
-.feedback-input__mail{
-    margin: 20px 140px;
-}
-.input__message {
-    max-width: 420px;
-    margin: 20px 140px;
-}
-.feedback__button {
-    max-width: 420px;
-    margin: 20px 140px;
-}
-.feedback__text {
-max-width: 420px;
-margin-bottom: 40px;
-}
-.feedback__heading,
-.feedback__text,
-.feedback__line {
-    margin-left: 140px;
-}
-.feedback__line {
-margin-bottom: 30px;
-}
-.contacts {
-    padding-left: 420px;
-}
 }
