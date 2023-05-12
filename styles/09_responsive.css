@@ -9,10 +9,13 @@
 @media screen and (max-width: 350px) {
     .section {
         padding-top: 80px;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
     }
 
     .action-button {
-        width: 340px;
+        width: 330px;
     }
 }
 
@@ -103,8 +106,10 @@
 
     .intro__button {
         width: 340px;
+        margin-right: auto;
+        margin-left: auto;
         position: relative;
-        left: -60px;
+        left: -66px;
     }
 }
 
@@ -142,6 +147,7 @@
     .services__lead,
     .services__blocks {
         margin-left: 6px;
+        margin-right: 6px;
     }
 }
 
@@ -175,6 +181,12 @@
         margin-bottom: 48px;
     }
 }
+/* @media screen and (max-width: 350px) {
+    .products {
+        padding-left: 0;
+        padding-right: 0;
+    }
+} */
 
 /* Team */
 
@@ -205,7 +217,7 @@
     }
 
     .team__selected_foto {
-        max-width: 360px;
+        max-width: 350px;
         width: 100%;
     }
 }
@@ -218,6 +230,10 @@
         align-items: center;
         margin: 10px;
     }
+    .team__selected_foto {
+        margin: 0;
+    }
+    
 }
 
 /* Subscribe */
@@ -297,6 +313,7 @@
     .feedback__text,
     .feedback__line {
         margin-left: 140px;
+        max-width: 350px;
     }
 
     .feedback__line {
@@ -316,7 +333,6 @@
     .feedback {
         margin-left: 326px;
     }
-
     .feedback-input__mail,
     .feedback-input__name,
     .input__message,
@@ -327,6 +343,42 @@
     .contacts {
         padding: 10% 500px;
     }
+}
+@media screen and (max-width: 350px) {
+    
+    .feedback-contacts {
+        /* overflow: visible; */
+        grid-template-columns: 1fr 100px 150px 100px 1fr;
+    }
+    
+    .feedback {
+        margin-left: 0;
+    }
+    .feedback-input__name,
+    .feedback-input__mail,
+    .input__message,
+    .feedback__button,
+    .feedback__text,
+     .feedback__line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feedback__form {
+        margin-left: 10px;
+    }
+    .contacts {
+        padding-left: 80px;
+        padding-right: 0px;
+        grid-column: 2 / 4;
+
+    }
+    .contacts__address {
+        width: 250px;
+        margin-right: 0;
+    }
+    .feedback-contacts::after {
+        display: none;
+        }
 }
 
 /* Footer */
