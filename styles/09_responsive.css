@@ -1,5 +1,9 @@
 /* Root */
-
+@media screen and (max-width: 1286px) {
+    .section {
+        box-sizing: border-box;
+    }
+}
 @media screen and (max-width: 908px) {
     .section-heading {
         font-size: 4vw;
@@ -11,7 +15,7 @@
         padding-top: 80px;
         padding-left: 10px;
         padding-right: 10px;
-        box-sizing: border-box;
+        
     }
 
     .action-button {
@@ -67,6 +71,7 @@
     .intro__video {
         width: 100%;
         height: auto;
+        margin-left: 20px;
     }
 }
 
@@ -213,7 +218,14 @@
     .team__selected_foto {
         max-width: 350px;
         width: 100%;
+        margin-right: 0;
     }
+    .services__lead,
+    .services__blocks {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
 }
 
 @media screen and (max-width: 350px) {
